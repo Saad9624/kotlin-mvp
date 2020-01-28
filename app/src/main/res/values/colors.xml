@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C61700</color>
+    <color name="colorPrimaryDark">#E14126</color>
+    <color name="colorAccent">#FF7D00</color>
+
+    <color name="colorAccentLoader">#008577</color>
+
+    <color name="font_color_one">#FF7D00</color>
+    <color name="font_color_two">#E14126</color>
+    <color name="font_color_three">#303030</color>
+    <color name="font_color_four">#4F4F4F</color>
+    <color name="font_color_five">#C61700</color>
+    <color name="orange_shade">#FF5722</color>
+    <color name="bottom_grey">#F2F5FA</color>
+
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="orange">#f9ac17</color>
+    <color name="pink">#dc4227</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Magento">#a30046</color>
+    <color name="grey_text">#828282</color>
+    <color name="grey_view_color">#CDCDCD</color>
+    <color name="grey_background">#f1f1f1</color>
+    <color name="colorEditTextHint">#c3c3c3</color>
+    <color name="colorEditTextData">#828282</color>
+    <color name="trans">#20828282</color>
+    <color name="Green">#008000</color>
+    <color name="black">#000000</color>
+    <color name="light_background">#F9ECF3</color>
+    <color name="light_shade">#F8F8F8</color>
+    <color name="light_shade2">#F0F0F0</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="green_highlight">#45A249</color>
+    <color name="green_enter_mpin">#8BAC3D</color>
+    <color name="grey">#ecedf0</color>
+    <color name="colorPrimaryLight">#e99c8f</color>
+    <color name="colorAccentLight">#e99c8f</color>
+    <color name="com_twitter_blue">#00aced</color>
+    <color name="error_color">#f20a31</color>
+    <color name="colorUbankBlue">#64c9ea</color>
+    <color name="colorUbankLastLogin">#f58220</color>
+    <color name="textColorGreen">#A3C74F</color>
+    <color name="colorOrange">#ee8530</color>
+    <color name="colorMiniStat">#eaeff2</color>
+    <color name="appBackgroundColor">#063859</color>
+    <color name="spinnerBackgroundColor">#d6dfe4</color>
+    <color name="backGroundGreen">#7bae2d</color>
+    <color name="backGroundBlue">#014268</color>
+    <color name="lightBlue">#EAEFF2</color>
+    <color name="darkGray">#9A9A9A</color>
+    <color name="nav_header_grey">#485C69</color>
+    <color name="nav_header_orange">#DA762D</color>
+    <color name="textDarkGray">#6F7179 </color>
+    <color name="iconColor">#CED9E0</color>
+    <color name="redArrowColor">#F44336</color>
+    <color name="greenArrowColor">#7DAD2B</color>
+</resources>

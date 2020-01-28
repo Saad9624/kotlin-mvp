@@ -1,0 +1,208 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:focusable="true"
+    android:background="#ff4500"
+    android:focusableInTouchMode="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/topImage"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:textColor="#ffffff"
+
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+
+            android:textColor="#FFF"
+
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+
+            android:id="@+id/userid"
+            android:hint="user id"
+
+            android:imeOptions="actionNext"
+
+            >
+        </EditText>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+
+            android:id="@+id/password"
+            android:hint="password"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="11sp"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Sign In"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:elevation="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validate Your Account Here"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        />
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        >
+
+        <EditText
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="13dp"
+            android:textAlignment="viewStart"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:textColorHint="@color/white"
+            android:hint="@string/enter_card_no"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="8096160900000043"
+            android:inputType="number"
+            android:id="@+id/et_login_cardNo"
+
+            android:maxLines="1"
+            android:maxLength="16"
+            android:imeOptions="actionNext"
+            android:background="@android:color/transparent"/>
+        &lt;!&ndash;03323120865&ndash;&gt;
+
+        &lt;!&ndash;  android:text="03352209834..Ubank@12345..core account..03335700088..Pakistan@123"&ndash;&gt;
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp">
+
+        <EditText
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="13dp"
+                android:layout_weight="1"
+                android:textColor="#FFF"
+                android:textColorHint="@color/white"
+                android:hint="@string/enter_mobile_no"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="03212556100"
+                android:id="@+id/et_login_mobileNo"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="11"
+                android:imeOptions="actionNext"
+                android:background="@android:color/transparent"/>
+        &lt;!&ndash;03323120865&ndash;&gt;
+        &lt;!&ndash;  android:text="03352209834..Ubank@12345..core account..03335700088..Pakistan@123"&ndash;&gt;
+    </LinearLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="90dp"
+    android:layout_marginRight="90dp"
+    android:layout_marginTop="40dp"
+    android:textSize="20sp"
+    android:layout_gravity="bottom"
+    android:text="Sign In"
+    android:textColor="@color/font_color_one"
+    android:id="@+id/btn_next"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:background="#FFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/ll_login_layout_signup_uwallet"/>
+-->
+
+</RelativeLayout>

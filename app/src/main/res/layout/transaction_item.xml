@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+              android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFF"
+>
+    <ImageView
+            android:id="@+id/calendarIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+
+    />
+    <TextView
+            android:id="@+id/txnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/calendarIcon"
+            android:text="09:00AM"
+            android:textSize="13sp"
+            android:textColor="#4E4E4E"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+    />
+    <TextView
+            android:id="@+id/txnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01/2019"
+            android:textSize="13sp"
+            android:textColor="#4e4e4e"
+            android:layout_below="@+id/txnTime"
+            android:layout_toRightOf="@+id/calendarIcon"
+            android:layout_marginLeft="10dp"
+
+    />
+
+    <TextView
+            android:id="@+id/merchantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+        android:maxLength="15"
+            android:gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+
+            android:textSize="13sp"
+    />
+
+    <TextView
+            android:id="@+id/merchantLocator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karachi, Korangi"
+        android:maxLength="15"
+            android:gravity="right"
+            android:layout_below="@+id/merchantName"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+
+            android:textSize="13sp"
+    />
+
+    <TextView
+            android:id="@+id/rrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txnAmount"
+            android:text="RRN 0283834929"
+            android:textColor="@color/black"
+
+            android:layout_centerHorizontal="true"
+            android:textSize="13sp"
+    />
+
+    <TextView
+            android:id="@+id/txnAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PKR 1500.00"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="18dp"
+            android:textSize="13sp"
+
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/grey_view_color"
+          android:layout_alignParentBottom="true"
+    />
+   <!-- <TextView
+            android:id="@+id/rrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="a"
+            android:textSize="20sp"
+    />
+    <TextView
+            android:id="@+id/terminalId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rrn"
+            android:text="b"
+            android:textSize="20sp"
+
+    />
+    <TextView
+            android:id="@+id/product_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/terminalId"
+            android:text="c"
+            android:textSize="20sp"
+    />
+
+    <TextView
+            android:id="@+id/txnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="d"
+            android:textSize="20sp"
+    />
+    <TextView
+            android:id="@+id/txnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txnDate"
+            android:text="e"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+
+    />
+
+    <TextView
+            android:id="@+id/txnAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txnTime"
+            android:text="f"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+
+    />
+-->
+
+</RelativeLayout>
